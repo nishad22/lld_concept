@@ -1,5 +1,7 @@
 package creational_design_pattern.builderpattern;
 
+import creational_design_pattern.builderpattern.model.Computer;
+
 public interface ComputerBuilder {
 
     ComputerBuilder buildProcessor(String processor);

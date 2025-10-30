@@ -1,5 +1,7 @@
 package creational_design_pattern.builderpattern;
 
+import creational_design_pattern.builderpattern.model.Computer;
+
 public class ClientCode {
 
     public static void main(String[] args) {

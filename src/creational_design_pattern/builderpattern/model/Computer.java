@@ -1,4 +1,4 @@
-package creational_design_pattern.builderpattern;
+package creational_design_pattern.builderpattern.model;
 
 public class Computer {
 
