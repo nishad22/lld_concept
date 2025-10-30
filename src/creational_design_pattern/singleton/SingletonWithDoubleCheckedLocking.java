@@ -1,7 +1,7 @@
 package creational_design_pattern.singleton;
 
 public class SingletonWithDoubleCheckedLocking {
-    private static SingletonWithDoubleCheckedLocking instance = null;
+    private static volatile SingletonWithDoubleCheckedLocking instance = null;
     private String databaseUrl;
     private String apiKey;
 
